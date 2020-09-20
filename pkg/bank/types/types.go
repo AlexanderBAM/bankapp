@@ -33,3 +33,10 @@ type Payment struct {
 	ID int
 	Amount Money
 }
+
+// PaymentSource enables to choose the card number
+type PaymentSource struct {
+	Type string
+	Number string
+	Balance Money
+}
