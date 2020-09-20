@@ -107,10 +107,14 @@ func ExampleTotal_positive() {
 			Balance: 10_000_00,
 			Active:  true,
 		},
+		{
+			Balance: 10_000_00,
+			Active:  true,
+		},
 	}
 
 	fmt.Println(Total(cards))
-	// Output: 2000000
+	// Output: 3000000
 }
 
 // ExampleTotal_negative checks the case with negative balance
